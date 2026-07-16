@@ -2,11 +2,11 @@
 <manifest>
   <remote  name="korg"
            fetch="git://android.git.kernel.org/"
-           review="review.source.android.com" />
+           review="android-review.googlesource.com" />
 
   <remote  name="github"
            fetch="git://github.com/"
-           review="review.cyanogenmod.com" />
+           review="review.lineageos.org" />
 
   <default revision="gingerbread"
            remote="github" />
@@ -312,6 +312,6 @@
   <project path="vendor/tmobile/themes/Cyanbread" name="LineageOS/android_vendor_tmobile_themes_Cyanbread" />
   <project path="vendor/tmobile/products/themes" name="LineageOS/android_vendor_tmobile_products_themes" />
 
-  <project path="android" name="LineageOS/android" />
+  <project path="android" name="tinelix/cm-android" />
 
 </manifest>
